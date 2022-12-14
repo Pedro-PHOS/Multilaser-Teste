@@ -1,0 +1,455 @@
+*{
+    margin: 0px;
+}
+
+body, html{
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0%;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(/Multilaser_teste/font/Poppins-Regular.ttf);
+ }
+ @font-face {
+    font-family: "Poppins-Medium";
+    src: url(/font/Poppins-Medium.ttf);
+ }
+ @font-face {
+    font-family: "Poppins-SemBoldItalic";
+    src: url(/font/Poppins-SemiBoldItalic.ttf);
+ }
+
+#container_1{
+    background-color: #F7C7B9;
+    height: 70vh;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding-block: 10px;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+}
+
+#logo h1{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    margin-left: 10px;
+}
+
+#menu{
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+#content_1{
+    display: flex;
+    flex-direction: column;
+    width: 50%; 
+    align-items: center;
+}
+
+#content_1_texts{
+    width: 50%;
+    padding-block: 30px;
+}
+
+#content_1_texts h1{
+    font-weight: 600;
+    font-size: 48px;
+    padding-block: 20px;
+}
+
+#content_1_button{
+    width: 50%;
+}
+
+#donation_button{
+    display: flex;
+    background-color: #DA2535;
+    color: #F9F9F9;
+    width: 250px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+#donation_button_icon{
+    margin-right: 10px;
+}
+
+#content_2{
+    width: 50%;
+}
+
+#content_2_img{
+    width: 600px;
+    height: 360px;
+}
+
+#container_2{
+    background-color: white;
+    height: 70vh;
+    width: 100%;
+}
+
+#resume_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-block: 40px;
+}
+
+#resume_text h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#resume_text p{
+    font-size: 16px;
+    width: 35%;
+    margin-top: 30px;
+    color: #8D8D8D;
+}
+
+#card_line{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards{
+    width: 198px;
+    height: 48px;
+    text-align: center;
+}
+
+.cards h1{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cards p{
+    padding-block: 20px;
+    color: #8D8D8D;
+    line-height: 24px;
+}
+
+#container_3{
+    display: flex;
+    background-color: #F7C7B9;
+    height: 70vh;
+    width: 100%;
+}
+
+#left_content{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    align-self: center;
+}
+
+#left_content img{
+    width: 400px;
+    height: 400px;
+}
+
+
+#rigth_content{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-self: center;
+}
+
+#rigth_content h1{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 52px;
+    width: 70%;
+}
+
+#rigth_content p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    padding-block: 40px;
+    width: 70%;
+}
+
+footer{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer_logo{
+    margin-left: 100px;
+}
+
+#media{
+    margin-right: 40px;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.media_icon{
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(218, 37, 52, 0.15);
+    border-radius: 100px;
+    align-items: center;
+}
+
+
+@media (max-width: 1024px){
+
+    #container_1{
+        height: 60vh;
+    }
+
+    #logo h1{
+        font-size: 14px;
+        margin-left: 5px;
+    }
+    
+    #menu{
+        width: 50%;
+    }
+    
+    #menu a{
+        font-size: 12px;
+    }
+
+    main{
+        height: 65%;
+    }
+    
+    #content_1{
+        width: 100%;
+    }
+    
+    #content_1_texts{
+        text-align: center;
+        width: 90% ;
+    }
+    
+    #content_1_texts h1{
+        font-size: 32px;
+    }
+    
+    #content_1_button{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #donation_button{
+        width: 400px;
+        height: 40px;
+    }
+    
+    #donation_button_icon{
+        margin-right: 10px;
+    }
+    
+    #content_2{
+        width: 0%;
+    }
+    
+    #content_2_img{
+        width: 0px;
+        height: 0px;
+    }
+
+    #resume_text{
+        flex-direction: column;
+        padding-block: unset;
+        padding-top: 30px;
+    }
+    
+    #resume_text h1{
+        font-size: 24px;
+    }
+    
+    #resume_text p{
+        font-size: 14px;
+        width: 80%;
+        margin-top: 20px;
+    }
+
+
+    #container_2{
+        height: 130vh;
+    }
+
+    #card_line{
+        height: 90vh;
+        justify-content: unset;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards{
+        padding-block: 60px;
+    }
+
+
+    .cards img{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .cards h1{
+        font-size: 14px;
+    }
+    
+    .cards p{
+        padding-block: 8px;
+        line-height: 21px;
+        font-size: 12px;
+    }
+
+    #container_3{
+        height: 60vh;
+    }
+    
+    #left_content{
+        width: 0%;
+    }
+
+    #left_content img{
+        width: 0px;
+        height: 0px;
+    }
+
+    #rigth_content{
+        display: flex;
+        text-align: center;
+        width: 100%;
+    }
+    
+    #rigth_content h1{
+        font-size: 24px;
+        line-height: 36px;
+        width: 100%;
+    }
+    
+    #rigth_content p{
+        align-self: center;
+        font-size: 14px;
+        line-height: 21px;
+        padding-block: 20px;
+        width: 80%;
+    }
+
+
+}
+
+@media (max-width: 768px){
+    #media{
+        width: 50%;
+    }
+}
+
+@media (max-width: 500px){
+
+    #container_1{
+        height: 60vh;
+    }
+
+    #logo h1{
+        font-size: 10px;
+    }
+    
+    #menu{
+        width: 50%;
+    }
+    
+    #menu a{
+        font-size: 8px;
+    }
+    
+    #content_1_texts h1{
+        font-size: 26px;
+    }
+
+    #content_1_texts p{
+        font-size: 16px;
+    }
+    
+    #donation_button{
+        width: 200px;
+    }
+
+    #resume_text{
+        padding-top: 20px;
+    }
+    
+    #resume_text h1{
+        font-size: 18px;
+    }
+    
+    #resume_text p{
+        font-size: 12px;
+        margin-top: 20px;
+    }
+
+    .cards{
+        padding-block: 50px;
+    }
+
+    .cards img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .cards p{
+        padding-block: 4px;
+        line-height: 15px;
+    }
+
+    #footer_logo{
+        margin-left: 25px;
+    }
+
+    .media_icon{
+        width: 20px;
+        height: 20px;
+    }
+
+    .media_icon img{
+        width: 12px;
+        height: 12px;
+    }
+}
