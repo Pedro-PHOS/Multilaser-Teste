@@ -310,7 +310,7 @@ footer{
 
 
     #container_2{
-        height: 130vh;
+        height: 110vh;
     }
 
     #card_line{
@@ -385,7 +385,7 @@ footer{
 @media (max-width: 500px){
 
     #container_1{
-        height: 60vh;
+        height: 50vh;
     }
 
     #logo h1{
@@ -410,6 +410,10 @@ footer{
     
     #donation_button{
         width: 200px;
+    }
+
+    #container_2{
+        height: 95vh;
     }
 
     #resume_text{
@@ -437,6 +441,10 @@ footer{
     .cards p{
         padding-block: 4px;
         line-height: 15px;
+    }
+
+    #container_3{
+        height: 50vh;
     }
 
     #footer_logo{
