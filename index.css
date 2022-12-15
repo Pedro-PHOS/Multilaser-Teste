@@ -11,15 +11,7 @@ body, html{
 
 @font-face {
     font-family: "Poppins";
-    src: url(/Multilaser_teste/font/Poppins-Regular.ttf);
- }
- @font-face {
-    font-family: "Poppins-Medium";
-    src: url(/font/Poppins-Medium.ttf);
- }
- @font-face {
-    font-family: "Poppins-SemBoldItalic";
-    src: url(/font/Poppins-SemiBoldItalic.ttf);
+    src: url(/font/Poppins-Regular.ttf);
  }
 
 #container_1{
