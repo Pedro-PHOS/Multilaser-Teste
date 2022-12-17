@@ -372,6 +372,10 @@ footer{
     #media{
         width: 50%;
     }
+    
+    #donation_button{
+        width: 85%;
+    }
 }
 
 @media (max-width: 500px){
@@ -398,10 +402,6 @@ footer{
 
     #content_1_texts p{
         font-size: 16px;
-    }
-    
-    #donation_button{
-        width: 200px;
     }
 
     #container_2{
