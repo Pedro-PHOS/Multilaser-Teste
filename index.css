@@ -1,18 +1,20 @@
-*{
-    margin: 0px;
-}
+/* Reset CSS */
+@import url("https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css");
 
-body, html{
-    font-family: "Poppins";
-    font-size: 16px;
-    font-weight: 500;
-    padding: 0%;
-}
-
+/* Importação da fonte Poppins */
 @font-face {
-    font-family: "Poppins";
-    src: url(/font/Poppins-Regular.ttf);
- }
+  font-family: "Poppins";
+  src: url("/font/Poppins-Regular.ttf");
+}
+
+/* Estilo da página */
+body,
+html {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0;
+}
 
 #container_1{
     background-color: #F7C7B9;
@@ -50,6 +52,11 @@ header{
     color: black;
     font-weight: 500;
 }
+
+#menu a:hover{
+    border-bottom: 1px solid black;
+}
+
 
 main{
     display: flex;
@@ -90,6 +97,12 @@ main{
     align-items: center;
     justify-content: center;
     font-weight: 600;
+    cursor: pointer;
+}
+
+#donation_button:hover{
+    transition: all 250ms linear;
+    background-color: rgb(253, 59, 0);
 }
 
 #donation_button_icon{
@@ -221,6 +234,10 @@ footer{
     background-color: rgba(218, 37, 52, 0.15);
     border-radius: 100px;
     align-items: center;
+}
+
+.media_icon:hover{
+    background-color: rgba(218, 37, 52, 0.30);
 }
 
 
