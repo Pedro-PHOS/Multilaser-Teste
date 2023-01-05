@@ -266,7 +266,7 @@ footer{
     }
 
     main{
-        padding-block: 2rem 8rem;
+        padding-block: 1rem 4rem;
     }
     
     #content_1{
@@ -385,6 +385,7 @@ footer{
         display: flex;
         align-items: center;
         justify-content:end;
+        width: 70%;
     }
 
     #menu_btn{
@@ -395,8 +396,8 @@ footer{
     }
 
     #menu_btn img{
-        width: 8vw;
-        height: 8vh;
+        width: 6vw;
+        height: 6vh;
     }
 
     #menu{
@@ -439,6 +440,16 @@ footer{
     #media{
         width: 50%;
     }
+
+    #footer_logo{
+        display: none;
+    }
+
+    #media{
+        width: 100%;
+        margin-inline: 0.5rem;
+    }
+    
 }
 
 @media (max-width: 500px){
@@ -480,21 +491,8 @@ footer{
 
     
     #rigth_content{
-        margin-inline: 20px ;
+        margin-inline: 20px;
     }
 
 
-    #footer_logo{
-        margin-left: 25px;
-    }
-
-    .media_icon{
-        width: 20px;
-        height: 20px;
-    }
-
-    .media_icon img{
-        width: 12px;
-        height: 12px;
-    }
 }
