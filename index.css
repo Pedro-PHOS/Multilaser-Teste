@@ -275,6 +275,7 @@ footer{
     
     #content_1_texts{
         text-align: center;
+        width: 80%;
     }
     
     #content_1_texts h1{
@@ -289,6 +290,7 @@ footer{
     #donation_button{
         width: 400px;
         height: 40px;
+        width: 70%;
     }
     
     #donation_button_icon{
@@ -437,10 +439,6 @@ footer{
     #media{
         width: 50%;
     }
-    
-    #donation_button{
-        width: 85%;
-    }
 }
 
 @media (max-width: 500px){
@@ -478,6 +476,11 @@ footer{
     .cards p{
         padding-block: 4px;
         line-height: 15px;
+    }
+
+    
+    #rigth_content{
+        margin-inline: 20px ;
     }
 
 
