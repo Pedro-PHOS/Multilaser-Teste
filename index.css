@@ -410,14 +410,15 @@ footer{
         display: block;
         flex-direction: column;
         position: absolute;
-        top: 10vh;
-        margin-top: 5vh;
-        height: 210vh;
         background-color: #F7C7B9;
-        z-index: 1000;
-        width: 100%;
-        left: 0%;
         overflow-y: auto;
+        z-index: 1000;
+        height: auto;
+        width: 100%;
+        margin-top: 5rem;
+        top: 0vh;
+        left: 0%;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.8);
     }
 
     #menu_section.active #menu a{
