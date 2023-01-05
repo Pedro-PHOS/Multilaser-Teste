@@ -14,12 +14,12 @@ html {
   font-size: 16px;
   font-weight: 500;
   padding: 0;
+  background-color: white;
 }
+
 
 #container_1{
     background-color: #F7C7B9;
-    height: 70vh;
-    width: 100%;
 }
 
 header{
@@ -41,7 +41,7 @@ header{
 }
 
 #menu_section{
-    width: 30%;
+    width: 40%;
 }
 
 #menu_btn{
@@ -50,8 +50,6 @@ header{
 
 #menu{
     display: flex;
-    width: 100%;
-    height: 100%;
     align-items: center;
     justify-content: space-evenly;
     overflow-y: auto;
@@ -71,23 +69,22 @@ header{
     display: none;
 }
 
-
 main{
     display: flex;
     align-items: center;
-    height: 100%;
+    padding-block: 0 3rem;
 }
 
 #content_1{
     display: flex;
     flex-direction: column;
-    width: 50%; 
+    width: 50%;
     align-items: center;
 }
 
 #content_1_texts{
     width: 50%;
-    padding-block: 30px;
+    padding-block: 2rem;
 }
 
 #content_1_texts h1{
@@ -104,7 +101,7 @@ main{
     display: flex;
     background-color: #DA2535;
     color: #F9F9F9;
-    width: 250px;
+    width: 100%;
     height: 48px;
     border: none;
     border-radius: 8px;
@@ -120,22 +117,21 @@ main{
 }
 
 #donation_button_icon{
-    margin-right: 10px;
+    margin-right: 0.5rem;
 }
 
 #content_2{
     width: 50%;
 }
 
-#content_2_img{
-    width: 600px;
-    height: 360px;
+#content_2 img{
+    width: 80%;
 }
+
 
 #container_2{
     background-color: white;
-    height: 70vh;
-    width: 100%;
+    padding-block: 0 20rem;
 }
 
 #resume_text{
@@ -180,11 +176,11 @@ main{
     line-height: 24px;
 }
 
+
 #container_3{
     display: flex;
     background-color: #F7C7B9;
-    height: 70vh;
-    width: 100%;
+    padding-block: 2rem;
 }
 
 #left_content{
@@ -199,7 +195,6 @@ main{
     height: 400px;
 }
 
-
 #rigth_content{
     display: flex;
     flex-direction: column;
@@ -211,7 +206,6 @@ main{
     font-size: 48px;
     font-weight: 600;
     line-height: 52px;
-    width: 70%;
 }
 
 #rigth_content p{
@@ -221,6 +215,7 @@ main{
     padding-block: 40px;
     width: 70%;
 }
+
 
 footer{
     height: 10vh;
@@ -257,10 +252,6 @@ footer{
 
 @media (max-width: 1024px){
 
-    #container_1{
-        height: 60vh;
-    }
-
     #logo h1{
         font-size: 14px;
         margin-left: 5px;
@@ -269,16 +260,13 @@ footer{
     #menu_section{
         width: 50%;
     }
-    #menu{
-        width: 100%;
-    }
     
     #menu a{
         font-size: 12px;
     }
 
     main{
-        height: 65%;
+        padding-block: 2rem 8rem;
     }
     
     #content_1{
@@ -287,7 +275,6 @@ footer{
     
     #content_1_texts{
         text-align: center;
-        width: 90% ;
     }
     
     #content_1_texts h1{
@@ -295,7 +282,6 @@ footer{
     }
     
     #content_1_button{
-        width: 100%;
         display: flex;
         justify-content: center;
     }
@@ -310,18 +296,18 @@ footer{
     }
     
     #content_2{
-        width: 0%;
+        display: none;
     }
-    
-    #content_2_img{
-        width: 0px;
-        height: 0px;
+
+
+    #container_2{
+        padding-block: 0 5rem;
     }
 
     #resume_text{
         flex-direction: column;
         padding-block: unset;
-        padding-top: 30px;
+        padding-top: 2rem;
     }
     
     #resume_text h1{
@@ -334,25 +320,16 @@ footer{
         margin-top: 20px;
     }
 
-
-    #container_2{
-        height: 110vh;
-    }
-
     #card_line{
-        height: 90vh;
-        justify-content: unset;
         flex-direction: column;
         align-items: center;
     }
 
     .cards{
-        padding-block: 60px;
+        padding-block: 4rem;
     }
 
-
     .cards img{
-        width: 100px;
         height: 100px;
     }
     
@@ -366,17 +343,13 @@ footer{
         font-size: 12px;
     }
 
+    
     #container_3{
-        height: 60vh;
+        padding-block: 10rem;
     }
     
     #left_content{
-        width: 0%;
-    }
-
-    #left_content img{
-        width: 0px;
-        height: 0px;
+        display: none;
     }
 
     #rigth_content{
@@ -388,7 +361,6 @@ footer{
     #rigth_content h1{
         font-size: 24px;
         line-height: 36px;
-        width: 100%;
     }
     
     #rigth_content p{
@@ -399,6 +371,9 @@ footer{
         width: 80%;
     }
 
+    #content_1_button{
+        width: 100%;
+    }
 
 }
 
@@ -437,17 +412,17 @@ footer{
         position: absolute;
         top: 10vh;
         margin-top: 5vh;
-        width: 100%;
         height: 210vh;
         background-color: #F7C7B9;
-        left: 0px;
         z-index: 1000;
+        width: 100%;
+        left: 0%;
     }
 
     #menu_section.active #menu a{
         display: block;
         padding: 2rem 0;
-        margin-block: 0 rem;
+        margin-block: 0 1rem;
         margin-inline: 1rem;
         font-size: 24px ;
         border-bottom: 1px solid rgba(0, 0, 0, 0.5);
@@ -468,14 +443,9 @@ footer{
 
 @media (max-width: 500px){
 
-    #container_1{
-        height: 50vh;
-    }
-
     #logo h1{
         font-size: 10px;
     }
-    
     
     #menu a{
         font-size: 8px;
@@ -489,13 +459,6 @@ footer{
         font-size: 16px;
     }
 
-    #container_2{
-        height: 95vh;
-    }
-
-    #resume_text{
-        padding-top: 20px;
-    }
     
     #resume_text h1{
         font-size: 18px;
@@ -510,19 +473,11 @@ footer{
         padding-block: 50px;
     }
 
-    .cards img{
-        width: 100px;
-        height: 100px;
-    }
-
     .cards p{
         padding-block: 4px;
         line-height: 15px;
     }
 
-    #container_3{
-        height: 50vh;
-    }
 
     #footer_logo{
         margin-left: 25px;
